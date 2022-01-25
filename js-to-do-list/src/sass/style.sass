@@ -1,0 +1,79 @@
+@import "./_font"
+@import "./_icons"
+@import "./_variables"
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss"
+
+body
+    min-height: 100vh
+    padding: 50px 0 100px 0
+    margin: 0
+    background-image: linear-gradient(to bottom right, #0a0079, #a800c2)
+
+// HEADER ---------
+h1
+    font-size: 50px
+    text-align: center
+    color: white
+    padding: 30px
+
+// BUTTONS ---------
+button
+    border: 1px solid white
+    color: white
+    background-color: transparent
+    height: 40px
+    margin: 0 5px 0 5px
+    border-radius: 5px
+button:hover
+    background-color: #ffffff2a
+    transform: scale(1.1)
+    transition: 0.2s
+
+input
+    border: 1px solid white
+    border-radius: 5px
+    color: white
+    background-color: transparent
+    margin-right: 5px
+
+section:first-of-type
+    div:first-child
+        padding: 50px 0 50px 0
+
+ul
+    // overflow: scroll 
+    // height: 30vh
+    // overflow-x: visible
+    padding-bottom: 200px
+
+ul li
+    display: flex
+    justify-content: space-between
+    border-radius: 5px
+    margin: 5px 0 5px 0
+    padding: 20px
+    list-style-type: none
+    color: white
+    cursor: pointer
+    background-color: transparent
+    border: 1px solid white
+
+ul li:hover
+    background-color: #ffffff2a
+    transform: scale(1.035)
+    transition: 0.2s
+
+.checked
+    text-decoration: line-through
+    color: #ffffff5a
+    border-color: #ffffff5a
+
+.fas
+    margin: 0 10px 0 10px
+    color: white
+.far
+    margin: 0 10px 0 10px
+    color: white
+
+// li
+//     display: none
